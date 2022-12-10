@@ -10,46 +10,49 @@
     </head>
     <body>
         <form action="#" method="POST">
-            <h1>Vamos Começar seu cadastro</h1>
+            <div class="form-container">
 
-            <section class="form-user-informations">
-                <p class="form-user-name">
-                    <label for="inpt-user-name"><span><strong>Nome e Sobrenome</strong> <abbr title="Requirido">*</abbr></span></label>
-                    <input type="text" name="user-name" id="inpt-user-name" required placeholder="Maria Dos Santos" tabindex="1">
-                </p>
+                <h1>Vamos Começar seu cadastro</h1>
+    
+                <section class="form-user-informations">
+                    <p class="form-user-name">
+                        <label for="inpt-user-name"><span><strong >Nome e Sobrenome</strong> <abbr title="Requirido">*</abbr></span></label>
+                        <input type="text" name="user-name" id="inpt-user-name" required placeholder="Maria Dos Santos" tabindex="1">
+                    </p>
+    
+                    <p class="form-user-email">
+                        <label for="inpt-user-email"><span><strong>Email</strong> <abbr title="Requerido">*</abbr></span></label>
+                        <input type="email" name="user-email" id="inpt-user-email" required placeholder="exemplo@email.com" tabindex="2">
+                    </p>
+    
+                    <p class="form-user-password">
+                        <label for="inpt-user-password"><span><strong>Senha</strong> <abbr title="Requerido">*</abbr></span></label>
+                        <input type="password" name="user-password" id="inpt-user-password" required placeholder="**********" tabindex="3">
+                    </p>
+                </section>
 
-                <p class="form-user-email">
-                    <label for="inpt-user-email"><span><strong>Email</strong> <abbr title="Requerido">*</abbr></span></label>
-                    <input type="email" name="user-email" id="inpt-user-email" required placeholder="exemplo@email.com" tabindex="2">
-                </p>
-
-                <p class="form-user-password">
-                    <label for="inpt-user-password"><span><strong>Senha</strong> <abbr title="Requerido">*</abbr></span></label>
-                    <input type="password" name="user-password" id="inpt-user-password" required placeholder="**********" tabindex="3">
-                </p>
-            </section>
-
-            <fieldset>
-                <legend><span>Seu gênero <abbr title="Requerido">*</abbr></span></legend>
-                <ul>
-                    <li>
-                        <label for="inpt-user-genre-male"><strong>Masculino</strong></label>
-                        <input type="radio" name="user-genrer" id="inpt-user-genre-male" value="masculino" required>
-                    </li>
-
-                    <li>
-                        <label for="inpt-user-genre-female"><strong>Feminino</strong></label>
-                        <input type="radio" name="user-genrer" id="inpt-user-genre-female" value="feminino" required>
-                    </li>
-
-                    <li>
-                        <label for="inpt-user-genre-not-defined"><strong>Não definido</strong></label>
-                        <input type="radio" name="user-genrer" id="inpt-user-genre-not-defined" value="nao-definido" required>
-                    </li>
-                </ul>
-            </fieldset>
-
-            <button type="submit">Confirmar</button>
+                <fieldset>
+                    <legend><span>Seu gênero <abbr title="Requerido">*</abbr></span></legend>
+                    <ul>
+                        <li>
+                            <label for="inpt-user-genre-male"><strong>Masculino</strong></label>
+                            <input type="radio" name="user-genrer" id="inpt-user-genre-male" value="masculino" required>
+                        </li>
+    
+                        <li>
+                            <label for="inpt-user-genre-female"><strong>Feminino</strong></label>
+                            <input type="radio" name="user-genrer" id="inpt-user-genre-female" value="feminino" required>
+                        </li>
+    
+                        <li>
+                            <label for="inpt-user-genre-not-defined"><strong>Não definido</strong></label>
+                            <input type="radio" name="user-genrer" id="inpt-user-genre-not-defined" value="nao-definido" required>
+                        </li>
+                    </ul>
+                </fieldset>
+                
+                <button type="submit"><span>Confirmar</span></button> 
+            </div>
         </form>
     </body>
 </html>
