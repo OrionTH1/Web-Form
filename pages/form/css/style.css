@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&display=swap');
+
+body {
+    background: linear-gradient(108.7deg, #00A6FB 0.25%, #0B97E8 98.13%);
+}
+
+form {
+    display:flex;
+}
+
+form .form-container {
+    font-family: 'Anek Latin', sans-serif;
+    /* display: flex; */
+    width: 400px;
+    height: 530px;
+    margin: 6% auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+form .form-user-informations {
+    font-style: normal;
+    font-weight: 400;
+    /* font-weight: ; */
+    /* font-size: 7px; */
+    line-height: 8px;
+    margin: 22px 9%;
+}
+
+form h1 {
+    width: 290px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    margin: 5% 32px 8% 32px;
+}
+
+form section p label span{
+    font-size: 18px;
+    margin: 0px 2px
+}
+
+form section p label{
+    margin: 8px 0px;
+}
+
+form section p input {
+    width: 330px;
+    height: 46px;
+    padding: 8px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 6px;
+}
+
+form section p input:focus {
+
+    border: 2px solid #919191;
+    outline: 0px;
+}
+
+form section p input:focus-visible {
+    border: 2px solid #919191;
+    outline: 0px;
+}
+
+
+form section p{
+    margin: 20px 0px;
+}
+
+form section .form-user-password input {
+    padding-top: 14px;
+}
+
+form fieldset {
+    border: 0px;
+    margin: 22px 9%;
+}
+
+form fieldset legend span{
+    font-size: 18px;
+}
+
+form fieldset ul {
+    display: flex;
+    
+    list-style-type: none;
+    margin-left: 2px;
+}
+
+form fieldset ul li{
+    display: flex;
+    width: 110px;
+    
+    justify-content: start;
+    flex-direction: row-reverse;
+    gap: 8px;
+    margin-top: 13px;
+}
+
+form strong{
+    font-style: normal;
+    font-weight: 400;
+}
+form label {
+    display: block;
+}
+
+form abbr {
+    color: #ff0f0f;
+    text-decoration: none;
+}
+
+form button span{
+    color: #FFFFFF;
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+form button {
+    margin: 6px 8%;
+    width: 330px;
+    height: 40px;
+
+    transition: background-color 0.5s ease;
+    background: #00A6FB;
+    border-radius: 6px;
+    border: 0px;
+}
+
+form button:hover {
+    transition: background-color 0.5s ease;
+    background: #0097e2;
+}
+
+
+
